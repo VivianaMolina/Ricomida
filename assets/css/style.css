@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0px;
+    background-color: #FFFFFF;
+    font-family: 'Cabin', sans-serif;    
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-family: 'Lobster', sans-serif;
+}
+
+.h2-principal{
+    margin-top: 40px;
+    margin-left: 0;
+    width: 350px;
+    height: 201px ;
+    color: #373a3c;
+    font-weight: bold;
+}
+
+.hr-recetas {
+    display: block;
+    margin-top: 3.5em;
+    margin-bottom: 3.5em;
+    margin-right: 2rem;
+    border-width: 1px;
+    width: 1300px;
+    color: #000000;
+  }
+
+ul, li {
+    padding-left:0;
+    margin-left:0;
+}
+/* If the screen size is 767px wide or less, hide the element */
+@media screen and (max-width: 767px) {
+    .custom-carousel{
+      display: none;
+    }
+  }
+
+.carousel-indicators .active {
+    background: #000000;
+}
+
+#carouselExampleIndicators .carousel-indicators button {
+   position: relative;
+   bottom: -50px;
+   width: 10px;
+   height: 10px;
+   border-radius: 100%;
+   border: 2px;
+   background:  #000000;
+}
+.logo-footer{
+  font-family: 'Lobster', sans-serif;
+  background:  #373A3C;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.subscripcion{
+  background-color: #DC3545;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
